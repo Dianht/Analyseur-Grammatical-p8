@@ -2,7 +2,7 @@
 
 ; Va executer tout nos programmes
 (define (syntaxe ph)
-  (display "Bienvenue dans l'analyseur grammatical conçu par Dinath et Gokhan \n")
+  (display "Bienvenue dans l'analyseur grammatical conçu par Dianht  \n")
   (if (string? ph)
   (values (sjet ph) (verba ph) (phrase ph) (advb ph) )
   '(entrer votre phrase sous cette forme "je suis une phrase")))
